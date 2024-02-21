@@ -1,0 +1,25 @@
+<application>
+  <component name="LocalDatabaseDriverManager" version="201">
+    <driver id="h2.unified">
+      <artifact />
+      <library>
+        <url>file://D:/maven/repository/com/h2database/h2/1.4.200/h2-1.4.200.jar</url>
+      </library>
+    </driver>
+    <driver id="mariadb">
+      <artifact />
+    </driver>
+    <driver id="sqlserver.ms" jre-path="D:\soft\jdk8">
+      <artifact />
+      <library>
+        <url>file://D:/maven/repository/com/microsoft/sqlserver/mssql-jdbc/6.2.1.jre8/mssql-jdbc-6.2.1.jre8.jar</url>
+      </library>
+    </driver>
+    <driver id="mysql.8">
+      <artifact />
+      <library>
+        <url>file://D:/maven/repository/mysql/mysql-connector-java/8.0.18/mysql-connector-java-8.0.18.jar</url>
+      </library>
+    </driver>
+  </component>
+</application>
