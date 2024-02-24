@@ -58,6 +58,11 @@
       <place><![CDATA[psiParameter().ofMethod(2, psiMethod().withName("PrintStream").withParameters("java.io.OutputStream", "boolean", "java.lang.String").definedInClass("java.io.PrintStream"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(3, psiMethod().withName("String").withParameters("byte[]", "int", "int", "java.lang.String").definedInClass("java.lang.String"))]]></place>
     </injection>
+    <injection language="spel" injector-id="java">
+      <display-name>FrequencyRestrict.refer (ws.spring.restrict.annotation)</display-name>
+      <single-file value="false" />
+      <place><![CDATA[psiMethod().withName("refer").withParameters().definedInClass("ws.spring.restrict.annotation.FrequencyRestrict")]]></place>
+    </injection>
     <injection language="SpEL" injector-id="java">
       <display-name>FrequencyRestrictor.refer (datart.core.guard)</display-name>
       <single-file value="false" />
