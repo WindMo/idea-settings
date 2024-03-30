@@ -3,6 +3,8 @@
     <extensionMap>
       <mapping pattern="mian-publicKey" type="AUTO_DETECTED" />
       <mapping pattern="application-2.yml" type="PLAIN_TEXT" />
+      <mapping ext="private" type="PLAIN_TEXT" />
+      <mapping ext="cer" type="PLAIN_TEXT" />
       <mapping ext="conf" type="Properties" />
       <mapping pattern="g" type="XML" />
       <mapping pattern="application-2" type="YAML" />
