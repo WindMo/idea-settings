@@ -58,6 +58,16 @@
       <place><![CDATA[psiParameter().ofMethod(2, psiMethod().withName("PrintStream").withParameters("java.io.OutputStream", "boolean", "java.lang.String").definedInClass("java.io.PrintStream"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(3, psiMethod().withName("String").withParameters("byte[]", "int", "int", "java.lang.String").definedInClass("java.lang.String"))]]></place>
     </injection>
+    <injection language="SpEL" injector-id="java">
+      <display-name>DisabledIf.expression (org.springframework.test.context.junit.jupiter)</display-name>
+      <single-file value="false" />
+      <place><![CDATA[psiMethod().withName("expression").withParameters().definedInClass("org.springframework.test.context.junit.jupiter.DisabledIf")]]></place>
+    </injection>
+    <injection language="SpEL" injector-id="java">
+      <display-name>EnabledIf.expression (org.springframework.test.context.junit.jupiter)</display-name>
+      <single-file value="false" />
+      <place><![CDATA[psiMethod().withName("expression").withParameters().definedInClass("org.springframework.test.context.junit.jupiter.EnabledIf")]]></place>
+    </injection>
     <injection language="spel" injector-id="java">
       <display-name>FrequencyRestrict.refer (ws.spring.restrict.annotation)</display-name>
       <single-file value="false" />
