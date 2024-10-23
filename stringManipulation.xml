@@ -1,0 +1,11 @@
+<application>
+  <component name="StringManipulationState">
+    <option name="lastActionModel">
+      <UniversalActionModel>
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.ToKebabCaseAction" />
+        <option name="description" value="To kebab-case" />
+        <option name="textWithMnemonic" value="To kebab-case" />
+      </UniversalActionModel>
+    </option>
+  </component>
+</application>
