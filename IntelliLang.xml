@@ -290,6 +290,15 @@
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("doTranslate").withParameters("java.lang.String", "java.lang.String", "java.sql.SQLException").definedInClass("org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("logTranslation").withParameters("java.lang.String", "java.lang.String", "java.sql.SQLException", "boolean").definedInClass("org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator"))]]></place>
     </injection>
+    <injection language="SpringPlaceholderReference" injector-id="java">
+      <display-name>SshProxy (ws.spring.ssh.anntation)</display-name>
+      <single-file value="false" />
+      <place><![CDATA[psiMethod().withName("localHost").withParameters().definedInClass("ws.spring.ssh.anntation.SshProxy")]]></place>
+      <place><![CDATA[psiMethod().withName("localPort").withParameters().definedInClass("ws.spring.ssh.anntation.SshProxy")]]></place>
+      <place><![CDATA[psiMethod().withName("remoteHost").withParameters().definedInClass("ws.spring.ssh.anntation.SshProxy")]]></place>
+      <place><![CDATA[psiMethod().withName("remotePort").withParameters().definedInClass("ws.spring.ssh.anntation.SshProxy")]]></place>
+      <place><![CDATA[psiMethod().withName("source").withParameters().definedInClass("ws.spring.ssh.anntation.SshProxy")]]></place>
+    </injection>
     <injection language="RegExp" injector-id="java">
       <display-name>String (java.lang)</display-name>
       <single-file value="true" />
