@@ -1,0 +1,17 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;
+  }
+}</component>
+      <component name="WindowStateProjectService">
+        <state x="781" y="204" key="SettingsEditor" timestamp="1755426155612">
+          <screen x="0" y="0" width="2560" height="1400" />
+        </state>
+        <state x="781" y="204" key="SettingsEditor/0.0.2560.1400" timestamp="1755426155612" />
+      </component>
+    </defaultProject>
+  </component>
+</application>
