@@ -1,4 +1,7 @@
 <application>
+  <component name="GeneralSettings">
+    <option name="processCloseConfirmation" value="TERMINATE" />
+  </component>
   <component name="LocalizationStateService">
     <option name="selectedLocale" value="zh-CN" />
   </component>
