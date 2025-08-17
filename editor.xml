@@ -1,6 +1,6 @@
 <application>
   <component name="CodeInsightSettings">
-    <option name="REFORMAT_ON_PASTE" value="1" />
+    <option name="REFORMAT_ON_PASTE" value="4" />
   </component>
   <component name="CodeVisionSettings">
     <option name="codeVisionGroupToPosition">
