@@ -1,3 +1,0 @@
-<templateSet group="JSP">
-  <template name="ado" value="$.ajax({&#10;&#10;&#10;                'url':'',&#10;                'type':'post',&#10;                'data':{},&#10;                'dataType':'json',&#10;                //'contentType': 'application/json; charset=UTF-8',&#10;&#10;                'success':function(data){&#10;&#10;                },&#10;               &#10;                'error':function(xhr,textStatus,errorThrown){&#10;                    &#10;                }&#10;&#10; });" description="ajax请求模板" toReformat="false" toShortenFQNames="true" />
-</templateSet>

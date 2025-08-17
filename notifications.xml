@@ -1,6 +1,0 @@
-<application>
-  <component name="NotificationConfiguration">
-    <notification groupId="IDE and Plugin Updates" displayType="NONE" />
-    <notification groupId="Vcs Important Messages" displayType="NONE" />
-  </component>
-</application>
